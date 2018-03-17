@@ -1,8 +1,8 @@
-CREATE DATABASE burgers_db;
+CREATE DATABASE sequelizeBurger;
 
-USE burgers_db;
+USE sequelizeBurger;
 
-CREATE TABLE burgers(
+CREATE TABLE sequelizeBurger(
 id int AUTO_INCREMENT,
 burger_name varchar(50) NOT NULL,
 devoured BOOLEAN default false,

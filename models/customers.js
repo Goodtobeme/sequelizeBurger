@@ -2,17 +2,12 @@
 
 
 module.exports = function(sequelize, DataTypes) {
-  var customers = sequelize.define('customers', {
+  var Customer = sequelize.define('Customer', {
     
-    customer: { 
-      allowNull: false,
-      type: DataTypes.STRING
-  }, {
-    classMethods: {
-      associate: function(models) {
-        // associations can be defined here
-      }
+    customer: {
+      type: DataTypes.STRING,
+      allowNull: false 
     }
   });
-  return customers;
+  return Customer;
 };

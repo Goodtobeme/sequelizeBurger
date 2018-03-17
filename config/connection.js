@@ -3,8 +3,8 @@ var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'password',
-    database: 'burgers_db'
-});
+    database: 'sequelizeBurger'
+})
 
 
 connection.connect(function(err) {
