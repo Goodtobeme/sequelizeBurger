@@ -30,8 +30,14 @@ module.exports = {
         customers.bulkCreate([{
             name: "Jennifer"
         },
-        {
+
+            name: "Joe"
+        }
+
             name: "George"
+        }
+        {
+            name: "Kim"
         }]);
     });
   },

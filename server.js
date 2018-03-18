@@ -9,7 +9,7 @@ var controller = require("./controllers/burgers_controller.js");
 var sequelize = require("Sequelize");
 
 var models = require("./models");
-models.sequelize.sync({ force: true });
+models.sequelize.sync();
 
 //Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static(process.cwd() + "/public"));

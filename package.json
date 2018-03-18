@@ -1,7 +1,7 @@
 {
-  "name": "sequelizeBurger",
+  "name": "houseTunesDB",
   "version": "1.0.0",
-  "description": "Using sequel to create an app burger",
+  "description": "Using sequel to create an app tunes",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.2",
