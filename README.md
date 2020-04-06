@@ -1,2 +1,2 @@
 # sequelizeBurger
-Using sequel to create an app burger
+Using sequel to create an burger app
